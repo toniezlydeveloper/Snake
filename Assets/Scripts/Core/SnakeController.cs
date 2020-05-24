@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using Enums;
 using UnityEngine;
 
 namespace Core
@@ -44,7 +43,8 @@ namespace Core
             for (int i = 0; i < _destinationPoints.Count; i++)
             {
                 tail[i].position =
-                    Vector3.Lerp(tail[i].position, _destinationPoints[i], moveSpeedMultiplier / tickInterval * Time.deltaTime);
+                    Vector3.Lerp(tail[i].position, _destinationPoints[i],
+                        moveSpeedMultiplier / tickInterval * Time.deltaTime);
             }
         }
 

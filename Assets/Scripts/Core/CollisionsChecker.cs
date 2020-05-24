@@ -1,15 +1,17 @@
 ﻿using System;
+using Collectables;
+using Obstacles;
 using UnityEngine;
 
 namespace Core
 {
     public class CollisionsChecker : MonoBehaviour
     {
-        public event Action OnObstacleHit;
-        public event Action<GameObject> OnPointHit;
+        public event Action<IObstacle> OnObstacleHit;
+        public event Action<ICollectable> OnCollectableHit;
     
         [SerializeField] private Transform interactionCheckPoint;
-        [SerializeField] private LayerMask pointLayerMask;
+        [SerializeField] private LayerMask collectableLayerMask;
         [SerializeField] private LayerMask obstacleLayerMask;
     
 
@@ -22,21 +24,21 @@ namespace Core
 
         private void CheckCollisions()
         {
-            Vector3 interactionPoint = interactionCheckPoint.position;
-            Collider2D point =
-                Physics2D.OverlapCircle(interactionPoint, InteractionCheckRadius, pointLayerMask);
+            Vector3 checkPoint = interactionCheckPoint.position;
+            ICollectable collectable =
+                Physics2D.OverlapCircle(checkPoint, InteractionCheckRadius, collectableLayerMask)?.GetComponent<ICollectable>();
 
-            bool isObstacleInFront =
-                Physics2D.OverlapCircle(interactionPoint, InteractionCheckRadius, obstacleLayerMask);
+            IObstacle obstacle =
+                Physics2D.OverlapCircle(checkPoint, InteractionCheckRadius, obstacleLayerMask)?.GetComponent<IObstacle>();
 
-            if (isObstacleInFront)
+            if (obstacle != null)
             {
-                OnObstacleHit?.Invoke();
+                OnObstacleHit?.Invoke(obstacle);
             }
         
-            if (point != null)
+            if (collectable != null)
             {
-                OnPointHit?.Invoke(point.gameObject);
+                OnCollectableHit?.Invoke(collectable);
             }
         }
 

@@ -21,16 +21,26 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="Collectables" t="Include">
+            <e p="CollectablesPlacer.cs" t="Include" />
+            <e p="Extender.cs" t="Include" />
+            <e p="ICollectable.cs" t="Include" />
+            <e p="TimeModificator.cs" t="Include" />
+          </e>
           <e p="Core" t="Include">
             <e p="CollisionsChecker.cs" t="Include" />
-            <e p="GameController.cs" t="Include" />
-            <e p="PointPlacer.cs" t="Include" />
-            <e p="SnakeController.cs" t="Include" />
-          </e>
-          <e p="Enums" t="Include">
             <e p="Direction.cs" t="Include" />
+            <e p="GameController.cs" t="Include" />
+            <e p="SnakeController.cs" t="Include" />
+            <e p="TimeController.cs" t="Include" />
+          </e>
+          <e p="Obstacles" t="Include">
+            <e p="IObstacle.cs" t="Include" />
+            <e p="Wall.cs" t="Include" />
           </e>
           <e p="UI" t="Include">
+            <e p="GameOverPresenter.cs" t="Include" />
+            <e p="IGameOverPresenter.cs" t="Include" />
             <e p="IScorePresenter.cs" t="Include" />
             <e p="TextScorePresenter.cs" t="Include" />
           </e>

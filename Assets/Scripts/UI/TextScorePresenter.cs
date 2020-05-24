@@ -18,7 +18,7 @@ namespace UI
             set
             {
                 scoreText.text = value.ToString();
-                if (value % scoreThreshold == 0)
+                if (value % scoreThreshold == 0 && value > 0)
                 {
                     Blink();
                 }
