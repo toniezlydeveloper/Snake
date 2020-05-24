@@ -989,7 +989,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &445839607
 PrefabInstance:
@@ -1213,7 +1213,7 @@ Transform:
   - {fileID: 76271827}
   - {fileID: 445839608}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1575205887
 MonoBehaviour:
@@ -1227,15 +1227,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f2c5eda83789e444a7b7569f9a59b05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tail:
-  - {fileID: 1125226674}
-  - {fileID: 76271827}
-  - {fileID: 445839608}
   stepLength: 1
   tickInterval: 1
   moveSpeedMultiplier: 7.5
   tailFragmentPrefab: {fileID: 2368587583149684869, guid: cbc2b63704e334b46a1886ff24531092,
     type: 3}
+  tail:
+  - {fileID: 1125226674}
+  - {fileID: 76271827}
+  - {fileID: 445839608}
 --- !u!1 &1965385693
 GameObject:
   m_ObjectHideFlags: 0
@@ -1279,7 +1279,7 @@ Transform:
   - {fileID: 67848642}
   - {fileID: 244983461}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2368587583224703063
 PrefabInstance:
