@@ -8,7 +8,6 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/SnakeController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/CollisionsChecker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Direction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Obstacles/Wall.cs" root0="FORCE_HIGHLIGHTING" />
@@ -23,6 +22,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Collectables/TimeModificator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/TextScorePresenter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Obstacles/IObstacle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/SnakeController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -46,10 +46,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/CollectablesPlacer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Collectables/TimeSpeedUpper.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/TimeModificator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Collectables/TimeModificator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Collectables/CollectablesPlacer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/TimeController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/SnakeController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Collectables/TimeModificator.cs" />
       </list>
     </option>
   </component>

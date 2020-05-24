@@ -33,9 +33,8 @@ namespace UI
         private void Blink()
         {
             Sequence blink = DOTween.Sequence();
-            blink.Append(scoreText.DOColor(blinkColor, blinkDuration / 2f));
-            blink.Append(scoreText.DOColor(_defaultColor, blinkDuration / 2f));
-            blink.Play();
+            blink.Append(scoreText.DOColor(blinkColor, blinkDuration / 2f))
+                .Append(scoreText.DOColor(_defaultColor, blinkDuration / 2f)).Play();
         }
     }
 }

@@ -19,8 +19,7 @@ namespace UI
         public void PresentGameOver()
         {
             Sequence show = DOTween.Sequence();
-            show.Append(panelCanvasGroup.DOFade(1f, showDuration));
-            show.Play();
+            show.Append(panelCanvasGroup.DOFade(1f, showDuration)).SetUpdate(true).Play();
         }
     }
 }
