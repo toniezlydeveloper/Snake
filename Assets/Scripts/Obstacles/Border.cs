@@ -2,9 +2,9 @@
 
 namespace Obstacles
 {
-    public class Wall : MonoBehaviour, IObstacle
+    public class Border : MonoBehaviour, IObstacle
     {
-        public bool Interact()
+        public bool Collide()
         {
             return true;
         }

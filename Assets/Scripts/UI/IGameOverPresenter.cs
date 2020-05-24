@@ -4,6 +4,6 @@
     {
         int FinalScore { set; }
 
-        void PresentGameOver();
+        void PresentGameOver(bool wasHighScore);
     }
 }

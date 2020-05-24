@@ -971,6 +971,7 @@ RectTransform:
   m_Children:
   - {fileID: 476617870}
   - {fileID: 1546755590}
+  - {fileID: 737570789}
   m_Father: {fileID: 1447121946}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1132,6 +1133,7 @@ MonoBehaviour:
   finalScorePrefix: 'Final score: '
   panelCanvasGroup: {fileID: 101999367}
   finalScoreText: {fileID: 1546755591}
+  highScoreParticles: {fileID: 737570788}
 --- !u!114 &309850135
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1770,6 +1772,59 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 648339058}
   m_CullTransparentMesh: 0
+--- !u!1 &737570788
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 737570789}
+  - component: {fileID: 737570790}
+  m_Layer: 5
+  m_Name: HighScoreParticles
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &737570789
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 737570788}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 101999364}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &737570790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 737570788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ab379d6139d43218b407d5c44839e56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  particleMaxCount: 100
+  emissionPerSecond: 10
+  rotationAmount: 10
+  particlePrefab: {fileID: 2876851340788719117, guid: 38ec82856707fa648b1758bca8936c57,
+    type: 3}
 --- !u!4 &1125226674 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5712006820146582013, guid: 8c80f856576792f4bb0888a94c841ed7,

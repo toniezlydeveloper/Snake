@@ -2,6 +2,6 @@
 {
     public interface IObstacle
     {
-        bool Interact();
+        bool Collide();
     }
 }

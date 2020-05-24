@@ -10,6 +10,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/CollisionsChecker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Direction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/UiParticleSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Obstacles/Wall.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/TimeController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Collectables/Extender.cs" root0="FORCE_HIGHLIGHTING" />
@@ -18,6 +19,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Collectables/CollectablesPlacer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/IGameOverPresenter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Collectables/ICollectable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/HighScoreController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/GameOverPresenter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Collectables/TimeModificator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/TextScorePresenter.cs" root0="FORCE_HIGHLIGHTING" />
@@ -34,13 +36,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/GameController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/IScorePresenter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/PointPlacer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI/TextScorePresenter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI/IGameOverPresenter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI/GameOverPresenter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Collectable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/IObstacle.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/CollisionsChecker.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/GameController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Wall.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Extender.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/CollectablesPlacer.cs" />
@@ -49,7 +47,14 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Collectables/CollectablesPlacer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/TimeController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/SnakeController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/TextScorePresenter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Collectables/TimeModificator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/HighScoreController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/IGameOverPresenter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/GameController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/GameOverPresenter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/HighScoreParticleSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/UiParticleSystem.cs" />
       </list>
     </option>
   </component>

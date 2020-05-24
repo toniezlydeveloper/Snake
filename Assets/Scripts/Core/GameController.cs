@@ -15,6 +15,7 @@ namespace Core
         private int _score;
         private IScorePresenter _scorePresenter;
         private IGameOverPresenter _gameOverPresenter;
+        private HighScoreController _highScoreController;
     
         private void Awake()
         {
@@ -24,21 +25,22 @@ namespace Core
 
         private void Start()
         {
-            collisionsChecker.OnObstacleHit += GameOver;
             collisionsChecker.OnCollectableHit += HandleCollectableHit;
+            collisionsChecker.OnObstacleHit += GameOver;
 
+            _highScoreController = new HighScoreController();
             _scorePresenter.Score = _score;
         }
 
         private void GameOver(IObstacle obstacle)
         {
-            if (!obstacle.Interact())
+            if (!obstacle.Collide())
             {
                 return;
             }
             
             _gameOverPresenter.FinalScore = _score;
-            _gameOverPresenter.PresentGameOver();
+            _gameOverPresenter.PresentGameOver(_highScoreController.TryUpdatingHighScore(_score));
             Destroy(snakeController);
         }
 
