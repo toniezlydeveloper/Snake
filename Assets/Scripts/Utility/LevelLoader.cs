@@ -10,11 +10,11 @@ namespace Utility
         {
             foreach (ILevelLoadingTrigger trigger in GetComponents<ILevelLoadingTrigger>())
             {
-                trigger.OnTrigger += LoadLevel;
+                trigger.OnTrigger += LoadLevelAndResetTimeScale;
             }
         }
 
-        private void LoadLevel(string levelName)
+        private void LoadLevelAndResetTimeScale(string levelName)
         {
             TimeController.ResetTimeScale();
             SceneManager.LoadScene(levelName);
