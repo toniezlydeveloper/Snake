@@ -28,11 +28,12 @@
             <e p="TimeModificator.cs" t="Include" />
           </e>
           <e p="Core" t="Include">
+            <e p="CameraSizeAdjuster.cs" t="Include" />
             <e p="CollisionsChecker.cs" t="Include" />
             <e p="Direction.cs" t="Include" />
             <e p="GameController.cs" t="Include" />
-            <e p="HighScoreController.cs" t="Include" />
             <e p="LevelLoader.cs" t="Include" />
+            <e p="PauseController.cs" t="Include" />
             <e p="SnakeController.cs" t="Include" />
             <e p="TimeController.cs" t="Include" />
           </e>
@@ -40,8 +41,10 @@
             <e p="GameOverScreen.cs" t="Include" />
             <e p="IGameOverPresenter.cs" t="Include" />
             <e p="ILevelLoadingTrigger.cs" t="Include" />
+            <e p="IPausePresenter.cs" t="Include" />
             <e p="IScorePresenter.cs" t="Include" />
             <e p="MainMenuScreen.cs" t="Include" />
+            <e p="PauseScreen.cs" t="Include" />
             <e p="TextScorePresenter.cs" t="Include" />
             <e p="UiParticleSystem.cs" t="Include" />
           </e>

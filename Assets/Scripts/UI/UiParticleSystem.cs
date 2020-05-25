@@ -4,6 +4,7 @@ using Random = UnityEngine.Random;
 
 namespace UI
 {
+    // todo: implement this
     public class UiParticleSystem : MonoBehaviour
     {
         [SerializeField] private int particleMaxCount;

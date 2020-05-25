@@ -12,9 +12,11 @@ namespace Core
         [SerializeField] private int pointScoreValue;
 
         private int _score;
+        private int _highScore;
         private IScorePresenter _scorePresenter;
         private IGameOverPresenter _gameOverPresenter;
-        private HighScoreController _highScoreController;
+        
+        private const string HighScoreKey = "HighScore";
     
         private void Awake()
         {
@@ -27,14 +29,17 @@ namespace Core
             collisionsChecker.OnCollectableHit += HandleCollectableHit;
             collisionsChecker.OnObstacleHit += GameOver;
 
-            _highScoreController = new HighScoreController();
             _scorePresenter.Score = _score;
+            
+            if (PlayerPrefs.HasKey(HighScoreKey))
+            {
+                _highScore = PlayerPrefs.GetInt(HighScoreKey);
+            }
         }
-
         private void GameOver()
         {
             _gameOverPresenter.FinalScore = _score;
-            _gameOverPresenter.PresentGameOver(_highScoreController.TryUpdatingHighScore(_score));
+            _gameOverPresenter.PresentGameOver(TryUpdatingHighScore(_score));
             Destroy(snakeController);
         }
 
@@ -45,6 +50,18 @@ namespace Core
         
             collectablesPlacer.PlaceCollectable();
             collectable.Collect();
+        }
+
+        private bool TryUpdatingHighScore(int newHighScore)
+        {
+            if (newHighScore <= _highScore)
+            {
+                return false;
+            }
+
+            _highScore = newHighScore;
+            PlayerPrefs.SetInt(HighScoreKey, _highScore);
+            return true;
         }
     }
 }

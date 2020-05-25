@@ -8,11 +8,15 @@ namespace Core
     {
         private void Start()
         {
-            GetComponent<ILevelLoadingTrigger>().OnTrigger += LoadLevel;
+            foreach (ILevelLoadingTrigger trigger in GetComponents<ILevelLoadingTrigger>())
+            {
+                trigger.OnTrigger += LoadLevel;
+            }
         }
 
         private void LoadLevel(string levelName)
         {
+            TimeController.ResetTimeScale();
             SceneManager.LoadScene(levelName);
         }
     }

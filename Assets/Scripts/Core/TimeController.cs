@@ -6,11 +6,17 @@ namespace Core
     {
         private static bool isInitialized;
         private static float initialTimeScale;
+        private static float previousTimeScale;
 
         public static void MultiplyTimeScale(float modifier)
         {
             Initialize();
             SetTimeScale(initialTimeScale * modifier);
+        }
+
+        public static void RestorePreviousTimeScale()
+        {
+            Time.timeScale = previousTimeScale;
         }
 
         public static void ResetTimeScale()
@@ -21,6 +27,7 @@ namespace Core
         
         private static void SetTimeScale(float newTimeScale)
         {
+            previousTimeScale = Time.timeScale;
             Time.timeScale = newTimeScale;
         }
 
