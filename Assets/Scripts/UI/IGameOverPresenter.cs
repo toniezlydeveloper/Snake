@@ -1,9 +1,7 @@
 ﻿namespace UI
 {
-    public interface IGameOverPresenter
+    public interface IGameOverPresenter : IScorePresenter
     {
-        int FinalScore { set; }
-
         void PresentGameOver(bool wasHighScore);
     }
 }

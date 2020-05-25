@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 namespace UI
 {
-    public class GameOverScreen : MonoBehaviour, IGameOverPresenter, ILevelLoadingTrigger
+    public class GameOverScreen : MonoBehaviour, IGameOverPresenter, ILevelLoadingTrigger , IScorePresenter
     {
         public event Action<string> OnTrigger;
         
@@ -21,7 +21,7 @@ namespace UI
         [SerializeField] private Button mainMenuButton;
         [SerializeField] private Button quitButton;
 
-        public int FinalScore
+        public int Score
         {
             set => finalScoreText.text = finalScorePrefix + value;
         }

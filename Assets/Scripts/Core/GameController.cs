@@ -37,7 +37,7 @@ namespace Core
         }
         private void GameOver()
         {
-            _gameOverPresenter.FinalScore = _score;
+            _gameOverPresenter.Score = _score;
             _gameOverPresenter.PresentGameOver(TryUpdatingHighScore(_score));
             Destroy(snakeController);
         }
