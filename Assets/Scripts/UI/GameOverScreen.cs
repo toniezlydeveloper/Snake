@@ -41,7 +41,8 @@ namespace UI
             }
             
             Sequence show = DOTween.Sequence();
-            show.Append(panelCanvasGroup.DOFade(1f, showDuration)).SetUpdate(true).Play();
+            show.Append(panelCanvasGroup.DOFade(1f, showDuration))
+                .AppendCallback(() => panelCanvasGroup.blocksRaycasts = true).SetUpdate(true).Play();
         }
     }
 }

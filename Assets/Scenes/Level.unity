@@ -945,7 +945,7 @@ CanvasGroup:
   m_Enabled: 1
   m_Alpha: 0
   m_Interactable: 1
-  m_BlocksRaycasts: 1
+  m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
 --- !u!1 &309850129
 GameObject:
@@ -1007,7 +1007,6 @@ MonoBehaviour:
   snakeController: {fileID: 309850136}
   collisionsChecker: {fileID: 309850135}
   collectablesPlacer: {fileID: 309850130}
-  pointScoreValue: 100
 --- !u!4 &309850132
 Transform:
   m_ObjectHideFlags: 0
@@ -1125,8 +1124,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mainMenuName: MainMenu
-  fadeDuration: 1
-  canvasGroup: {fileID: 1968167834}
+  fadeDuration: 0.25
+  panelCanvasGroup: {fileID: 1968167834}
   mainMenuButton: {fileID: 983797758}
   quitButton: {fileID: 1730674651}
 --- !u!114 &309850139
@@ -3914,7 +3913,7 @@ CanvasGroup:
   m_Enabled: 1
   m_Alpha: 0
   m_Interactable: 1
-  m_BlocksRaycasts: 1
+  m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
 --- !u!114 &1968167835
 MonoBehaviour:
