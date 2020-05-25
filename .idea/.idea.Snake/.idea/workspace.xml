@@ -11,7 +11,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/CollisionsChecker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Direction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/UiParticleSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Obstacles/Wall.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/TimeController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Collectables/Extender.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/GameController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -19,12 +18,14 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Collectables/CollectablesPlacer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/IGameOverPresenter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Collectables/ICollectable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/MainMenuScreen.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/HighScoreController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/GameOverPresenter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/GameOverScreen.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Collectables/TimeModificator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/ILevelLoadingTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/TextScorePresenter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Obstacles/IObstacle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/SnakeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/LevelLoader.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -38,7 +39,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/PointPlacer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Collectable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/IObstacle.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/CollisionsChecker.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Wall.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Extender.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/CollectablesPlacer.cs" />
@@ -51,10 +51,17 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Collectables/TimeModificator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/HighScoreController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/IGameOverPresenter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/GameController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/GameOverPresenter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/HighScoreParticleSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/UiParticleSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Obstacles/Wall.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Obstacles/Border.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/ILevelLoadingTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/LevelLoader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/GameController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/CollisionsChecker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/GameOverScreen.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/MainMenuScreen.cs" />
       </list>
     </option>
   </component>
@@ -78,10 +85,10 @@
       <option name="pid" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="9860">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="9860" />
+      <option name="pid" />
       <method v="2" />
     </configuration>
   </component>
@@ -94,6 +101,7 @@
       <updated>1590330562905</updated>
       <workItem from="1590330566965" duration="3917000" />
       <workItem from="1590339294755" duration="4166000" />
+      <workItem from="1590439141735" duration="1177000" />
     </task>
     <servers />
   </component>
@@ -107,22 +115,70 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="718" y="381" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1/0.0.1920.1040@0.0.1920.1040" timestamp="1590332748750" />
-    <state width="1921" height="356" key="GridCell.Tab.0.bottom" timestamp="1590343224607">
+    <state width="1921" height="356" key="GridCell.Tab.0.bottom" timestamp="1590351436418">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="356" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590343224607" />
-    <state width="1921" height="356" key="GridCell.Tab.0.center" timestamp="1590343224607">
+    <state width="1921" height="356" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590351436418" />
+    <state width="1921" height="356" key="GridCell.Tab.0.center" timestamp="1590351436418">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="356" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590343224607" />
-    <state width="1921" height="356" key="GridCell.Tab.0.left" timestamp="1590343224607">
+    <state width="1921" height="356" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590351436418" />
+    <state width="1921" height="356" key="GridCell.Tab.0.left" timestamp="1590351436418">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="356" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590343224607" />
-    <state width="1921" height="356" key="GridCell.Tab.0.right" timestamp="1590343224607">
+    <state width="1921" height="356" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590351436418" />
+    <state width="1921" height="356" key="GridCell.Tab.0.right" timestamp="1590351436418">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="356" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590343224607" />
+    <state width="1921" height="356" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590351436418" />
+    <state width="1921" height="356" key="GridCell.Tab.1.bottom" timestamp="1590351436418">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="356" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590351436418" />
+    <state width="1921" height="356" key="GridCell.Tab.1.center" timestamp="1590351436418">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="356" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590351436418" />
+    <state width="1921" height="356" key="GridCell.Tab.1.left" timestamp="1590351436418">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="356" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590351436418" />
+    <state width="1921" height="356" key="GridCell.Tab.1.right" timestamp="1590351436418">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="356" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590351436418" />
+    <state width="1921" height="356" key="GridCell.Tab.2.bottom" timestamp="1590351436419">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="356" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590351436419" />
+    <state width="1921" height="356" key="GridCell.Tab.2.center" timestamp="1590351436419">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="356" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590351436419" />
+    <state width="1921" height="356" key="GridCell.Tab.2.left" timestamp="1590351436418">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="356" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590351436418" />
+    <state width="1921" height="356" key="GridCell.Tab.2.right" timestamp="1590351436419">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="356" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590351436419" />
+    <state width="1921" height="356" key="GridCell.Tab.3.bottom" timestamp="1590351436419">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="356" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590351436419" />
+    <state width="1921" height="356" key="GridCell.Tab.3.center" timestamp="1590351436419">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="356" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590351436419" />
+    <state width="1921" height="356" key="GridCell.Tab.3.left" timestamp="1590351436419">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="356" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590351436419" />
+    <state width="1921" height="356" key="GridCell.Tab.3.right" timestamp="1590351436419">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="356" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590351436419" />
     <state x="788" y="204" key="RiderGenerateDialog" timestamp="1590339617673">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -1,5 +1,4 @@
 ﻿using Collectables;
-using Obstacles;
 using UI;
 using UnityEngine;
 
@@ -32,13 +31,8 @@ namespace Core
             _scorePresenter.Score = _score;
         }
 
-        private void GameOver(IObstacle obstacle)
+        private void GameOver()
         {
-            if (!obstacle.Collide())
-            {
-                return;
-            }
-            
             _gameOverPresenter.FinalScore = _score;
             _gameOverPresenter.PresentGameOver(_highScoreController.TryUpdatingHighScore(_score));
             Destroy(snakeController);

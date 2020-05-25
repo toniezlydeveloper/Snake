@@ -1,13 +1,12 @@
 ﻿using System;
 using Collectables;
-using Obstacles;
 using UnityEngine;
 
 namespace Core
 {
     public class CollisionsChecker : MonoBehaviour
     {
-        public event Action<IObstacle> OnObstacleHit;
+        public event Action OnObstacleHit;
         public event Action<ICollectable> OnCollectableHit;
     
         [SerializeField] private Transform interactionCheckPoint;
@@ -26,14 +25,15 @@ namespace Core
         {
             Vector3 checkPoint = interactionCheckPoint.position;
             ICollectable collectable =
-                Physics2D.OverlapCircle(checkPoint, InteractionCheckRadius, collectableLayerMask)?.GetComponent<ICollectable>();
+                Physics2D.OverlapCircle(checkPoint, InteractionCheckRadius, collectableLayerMask)
+                    ?.GetComponent<ICollectable>();
 
-            IObstacle obstacle =
-                Physics2D.OverlapCircle(checkPoint, InteractionCheckRadius, obstacleLayerMask)?.GetComponent<IObstacle>();
+            bool wasObstacleHit =
+                Physics2D.OverlapCircle(checkPoint, InteractionCheckRadius, obstacleLayerMask);
 
-            if (obstacle != null)
+            if (wasObstacleHit)
             {
-                OnObstacleHit?.Invoke(obstacle);
+                OnObstacleHit?.Invoke();
             }
         
             if (collectable != null)
