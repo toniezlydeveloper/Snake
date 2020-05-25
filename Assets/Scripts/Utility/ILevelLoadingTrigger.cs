@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace UI
+namespace Utility
 {
     public interface ILevelLoadingTrigger
     {
