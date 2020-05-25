@@ -5,8 +5,12 @@ namespace Collectables
 {
     public class Extender : MonoBehaviour, ICollectable
     {
-        private SnakeController _snakeController;
+        [SerializeField] private int pointValue;
         
+        private SnakeController _snakeController;
+
+        public int PointValue => pointValue;
+
         public void Construct(SnakeController snakeController)
         {
             _snakeController = snakeController;

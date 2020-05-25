@@ -87,5 +87,10 @@ PrefabInstance:
       propertyPath: speedUpMultiplier
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 5915339337567195937, guid: 21b733216cfd60a4492945dfa28d4c2f,
+        type: 3}
+      propertyPath: pointValue
+      value: 50
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 21b733216cfd60a4492945dfa28d4c2f, type: 3}

@@ -12,7 +12,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/CollisionsChecker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Direction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/UiParticleSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/TimeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utility/TimeController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Collectables/Extender.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/GameController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/IScorePresenter.cs" root0="FORCE_HIGHLIGHTING" />
@@ -22,13 +22,13 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/PauseScreen.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/MainMenuScreen.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/GameOverScreen.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/CameraSizeAdjuster.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utility/CameraSizeAdjuster.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/IPausePresenter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Collectables/TimeModificator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/ILevelLoadingTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/TextScorePresenter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/SnakeController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/LevelLoader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utility/LevelLoader.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -63,13 +63,14 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/UiParticleSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/IPausePresenter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/TimeController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/LevelLoader.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/GamePauser.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/PauseController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/HighScoreController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/GameController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/CameraSizeAdjuster.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/PauseScreen.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/LevelLoader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/PauseController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Utility/TimeController.cs" />
       </list>
     </option>
   </component>
@@ -109,7 +110,7 @@
       <updated>1590330562905</updated>
       <workItem from="1590330566965" duration="3917000" />
       <workItem from="1590339294755" duration="4166000" />
-      <workItem from="1590439141735" duration="2613000" />
+      <workItem from="1590439141735" duration="2915000" />
     </task>
     <servers />
   </component>

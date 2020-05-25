@@ -9,7 +9,6 @@ namespace Core
         [SerializeField] private SnakeController snakeController;
         [SerializeField] private CollisionsChecker collisionsChecker;
         [SerializeField] private CollectablesPlacer collectablesPlacer;
-        [SerializeField] private int pointScoreValue;
 
         private int _score;
         private int _highScore;
@@ -45,7 +44,7 @@ namespace Core
 
         private void HandleCollectableHit(ICollectable collectable)
         {
-            _score += pointScoreValue;
+            _score += collectable.PointValue;
             _scorePresenter.Score = _score;
         
             collectablesPlacer.PlaceCollectable();

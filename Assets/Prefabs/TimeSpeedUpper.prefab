@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 695c6581fe2b448086ce08e69f21f9f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pointValue: 75
   speedUpMultiplier: 2
   modificationDuration: 2.5
 --- !u!1001 &8933365513634588306
@@ -25,6 +26,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: TimeSpeedUpper
+      objectReference: {fileID: 0}
+    - target: {fileID: 3531955627956067791, guid: b43f3a612a88a6544a6f9f0e66f304a2,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.7372549
+      objectReference: {fileID: 0}
+    - target: {fileID: 3531955627956067791, guid: b43f3a612a88a6544a6f9f0e66f304a2,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.05278593
       objectReference: {fileID: 0}
     - target: {fileID: 3531955627956067789, guid: b43f3a612a88a6544a6f9f0e66f304a2,
         type: 3}
@@ -80,16 +91,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3531955627956067791, guid: b43f3a612a88a6544a6f9f0e66f304a2,
-        type: 3}
-      propertyPath: m_Color.r
-      value: 0.7372549
-      objectReference: {fileID: 0}
-    - target: {fileID: 3531955627956067791, guid: b43f3a612a88a6544a6f9f0e66f304a2,
-        type: 3}
-      propertyPath: m_Color.g
-      value: 0.05278593
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b43f3a612a88a6544a6f9f0e66f304a2, type: 3}

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Core
+namespace Utility
 {
     [RequireComponent(typeof(Camera))]
     public class CameraSizeAdjuster : MonoBehaviour
