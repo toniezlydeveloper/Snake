@@ -50,7 +50,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Collectables/CollectablesPlacer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/SnakeController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/TextScorePresenter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI/IGameOverPresenter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/GameOverPresenter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/HighScoreParticleSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Obstacles/Wall.cs" />
@@ -70,10 +69,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Collectables/ICollectable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Collectables/Extender.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Collectables/TimeModificator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/GameController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI/GameOverScreen.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/PauseScreen.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Utility/LevelLoader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/GameOverScreen.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/GameController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/IGameOverPresenter.cs" />
       </list>
     </option>
   </component>
@@ -113,7 +113,7 @@
       <updated>1590330562905</updated>
       <workItem from="1590330566965" duration="3917000" />
       <workItem from="1590339294755" duration="4166000" />
-      <workItem from="1590439141735" duration="3581000" />
+      <workItem from="1590439141735" duration="3848000" />
     </task>
     <servers />
   </component>

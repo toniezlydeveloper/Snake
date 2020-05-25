@@ -22,9 +22,9 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="Collectables" t="Include">
+            <e p="Collectable.cs" t="Include" />
             <e p="CollectablesPlacer.cs" t="Include" />
             <e p="Extender.cs" t="Include" />
-            <e p="ICollectable.cs" t="Include" />
             <e p="TimeModificator.cs" t="Include" />
           </e>
           <e p="Core" t="Include">

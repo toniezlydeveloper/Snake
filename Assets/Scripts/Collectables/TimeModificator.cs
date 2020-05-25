@@ -4,17 +4,14 @@ using Utility;
 
 namespace Collectables
 {
-    public class TimeModificator : MonoBehaviour, ICollectable
+    public class TimeModificator : Collectable
     {
-        [SerializeField] private int pointValue;
         [SerializeField] private float speedUpMultiplier;
         [SerializeField] private float modificationDuration;
 
         private static int modificationsCount;
         
-        public int PointValue => pointValue;
-        
-        public void Collect()
+        public override void Collect()
         {
             TimeController.MultiplyTimeScale(speedUpMultiplier);
             Invoke(nameof(RemoveModifierAndDestroyObject), modificationDuration * speedUpMultiplier);

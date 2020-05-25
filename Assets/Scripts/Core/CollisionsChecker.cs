@@ -7,7 +7,7 @@ namespace Core
     public class CollisionsChecker : MonoBehaviour
     {
         public event Action OnObstacleHit;
-        public event Action<ICollectable> OnCollectableHit;
+        public event Action<Collectable> OnCollectableHit;
     
         [SerializeField] private Transform interactionCheckPoint;
         [SerializeField] private LayerMask collectableLayerMask;
@@ -24,9 +24,9 @@ namespace Core
         private void CheckCollisions()
         {
             Vector3 checkPoint = interactionCheckPoint.position;
-            ICollectable collectable =
+            Collectable collectable =
                 Physics2D.OverlapCircle(checkPoint, InteractionCheckRadius, collectableLayerMask)
-                    ?.GetComponent<ICollectable>();
+                    ?.GetComponent<Collectable>();
 
             bool wasObstacleHit =
                 Physics2D.OverlapCircle(checkPoint, InteractionCheckRadius, obstacleLayerMask);

@@ -42,7 +42,7 @@ namespace Core
             Destroy(snakeController);
         }
 
-        private void HandleCollectableHit(ICollectable collectable)
+        private void HandleCollectableHit(Collectable collectable)
         {
             _score += collectable.PointValue;
             _scorePresenter.Score = _score;
