@@ -13,9 +13,10 @@ namespace Collectables
         
         public override void Collect()
         {
+            base.Collect();
+
             TimeController.MultiplyTimeScale(speedUpMultiplier);
             Invoke(nameof(RemoveModifierAndDestroyObject), modificationDuration * speedUpMultiplier);
-            gameObject.SetActive(false);
             modificationsCount++;
         }
 

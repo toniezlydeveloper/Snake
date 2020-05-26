@@ -92,5 +92,57 @@ PrefabInstance:
       propertyPath: pointValue
       value: 50
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 5915339337567195937, guid: 21b733216cfd60a4492945dfa28d4c2f,
+        type: 3}
+      propertyPath: collectSfx
+      value: 
+      objectReference: {fileID: 8300000, guid: 524a4bfa0ecb7a24f9c5c170746067b5, type: 3}
+    - target: {fileID: 5915339337567195937, guid: 21b733216cfd60a4492945dfa28d4c2f,
+        type: 3}
+      propertyPath: spawnSfx
+      value: 
+      objectReference: {fileID: 8300000, guid: 3613771702fe8c44095cf977db4f100a, type: 3}
+    - target: {fileID: 8555738852103729942, guid: 21b733216cfd60a4492945dfa28d4c2f,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8555738852103729942, guid: 21b733216cfd60a4492945dfa28d4c2f,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.9137255
+      objectReference: {fileID: 0}
+    - target: {fileID: 8555738852103729942, guid: 21b733216cfd60a4492945dfa28d4c2f,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.78693664
+      objectReference: {fileID: 0}
+    - target: {fileID: 557426958012048293, guid: 21b733216cfd60a4492945dfa28d4c2f,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 557426958012048293, guid: 21b733216cfd60a4492945dfa28d4c2f,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 557426958012048293, guid: 21b733216cfd60a4492945dfa28d4c2f,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.7851591
+      objectReference: {fileID: 0}
+    - target: {fileID: 53407028375645684, guid: 21b733216cfd60a4492945dfa28d4c2f,
+        type: 3}
+      propertyPath: speedUpMultiplier
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 53407028375645684, guid: 21b733216cfd60a4492945dfa28d4c2f,
+        type: 3}
+      propertyPath: pointValue
+      value: 25
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5915339337567195937, guid: 21b733216cfd60a4492945dfa28d4c2f, type: 3}
+    - {fileID: 1599501196962388802, guid: 21b733216cfd60a4492945dfa28d4c2f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 21b733216cfd60a4492945dfa28d4c2f, type: 3}

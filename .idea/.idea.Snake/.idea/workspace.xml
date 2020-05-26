@@ -10,6 +10,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/PauseController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/CollisionsChecker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utility/ILevelLoadingTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Direction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/UiParticleSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utility/TimeController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -18,14 +19,13 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/IScorePresenter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Collectables/CollectablesPlacer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/IGameOverPresenter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Collectables/ICollectable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Collectables/Collectable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/PauseScreen.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/MainMenuScreen.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/GameOverScreen.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utility/CameraSizeAdjuster.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/IPausePresenter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Collectables/TimeModificator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/ILevelLoadingTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/TextScorePresenter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/SnakeController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utility/LevelLoader.cs" root0="FORCE_HIGHLIGHTING" />
@@ -67,13 +67,14 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/PauseController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Utility/TimeController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Collectables/ICollectable.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Collectables/Extender.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Collectables/TimeModificator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/PauseScreen.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Utility/LevelLoader.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/GameOverScreen.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/GameController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/IGameOverPresenter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Collectables/TimeModificator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Collectables/Extender.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Collectables/Collectable.cs" />
       </list>
     </option>
   </component>
@@ -114,6 +115,7 @@
       <workItem from="1590330566965" duration="3917000" />
       <workItem from="1590339294755" duration="4166000" />
       <workItem from="1590439141735" duration="3848000" />
+      <workItem from="1590523563822" duration="2560000" />
     </task>
     <servers />
   </component>

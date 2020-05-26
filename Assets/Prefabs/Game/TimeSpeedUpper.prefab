@@ -1,19 +1,22 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &6106125155261258578
+--- !u!114 &53407028375645684
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 253296732333227144}
+  m_GameObject: {fileID: 5403675740437314398}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d0d61f22d724a7fbc7fe76a5429111c, type: 3}
+  m_Script: {fileID: 11500000, guid: 695c6581fe2b448086ce08e69f21f9f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointValue: 100
---- !u!1001 &3641128305781793092
+  pointValue: 75
+  collectSfx: {fileID: 8300000, guid: 3613771702fe8c44095cf977db4f100a, type: 3}
+  speedUpMultiplier: 3
+  modificationDuration: 5
+--- !u!1001 &8933365513634588306
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -23,17 +26,17 @@ PrefabInstance:
     - target: {fileID: 3531955627956067788, guid: b43f3a612a88a6544a6f9f0e66f304a2,
         type: 3}
       propertyPath: m_Name
-      value: Extender
+      value: TimeSpeedUpper
       objectReference: {fileID: 0}
     - target: {fileID: 3531955627956067791, guid: b43f3a612a88a6544a6f9f0e66f304a2,
         type: 3}
       propertyPath: m_Color.r
-      value: 0.33598986
+      value: 0.7372549
       objectReference: {fileID: 0}
     - target: {fileID: 3531955627956067791, guid: b43f3a612a88a6544a6f9f0e66f304a2,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.7372549
+      value: 0.05278593
       objectReference: {fileID: 0}
     - target: {fileID: 3531955627956067789, guid: b43f3a612a88a6544a6f9f0e66f304a2,
         type: 3}
@@ -90,11 +93,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 956354927524615556, guid: b43f3a612a88a6544a6f9f0e66f304a2,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.9056604
+      objectReference: {fileID: 0}
+    - target: {fileID: 956354927524615556, guid: b43f3a612a88a6544a6f9f0e66f304a2,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.11947918
+      objectReference: {fileID: 0}
+    - target: {fileID: 956354927524615556, guid: b43f3a612a88a6544a6f9f0e66f304a2,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8954792441289033015, guid: b43f3a612a88a6544a6f9f0e66f304a2,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.8867924
+      objectReference: {fileID: 0}
+    - target: {fileID: 8954792441289033015, guid: b43f3a612a88a6544a6f9f0e66f304a2,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8954792441289033015, guid: b43f3a612a88a6544a6f9f0e66f304a2,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b43f3a612a88a6544a6f9f0e66f304a2, type: 3}
---- !u!1 &253296732333227144 stripped
+--- !u!1 &5403675740437314398 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3531955627956067788, guid: b43f3a612a88a6544a6f9f0e66f304a2,
     type: 3}
-  m_PrefabInstance: {fileID: 3641128305781793092}
+  m_PrefabInstance: {fileID: 8933365513634588306}
   m_PrefabAsset: {fileID: 0}

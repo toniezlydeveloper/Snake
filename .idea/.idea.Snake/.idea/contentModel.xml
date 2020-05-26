@@ -35,9 +35,9 @@
             <e p="SnakeController.cs" t="Include" />
           </e>
           <e p="UI" t="Include">
+            <e p="ButtonAudioService.cs" t="Include" />
             <e p="GameOverScreen.cs" t="Include" />
             <e p="IGameOverPresenter.cs" t="Include" />
-            <e p="ILevelLoadingTrigger.cs" t="Include" />
             <e p="IPausePresenter.cs" t="Include" />
             <e p="IScorePresenter.cs" t="Include" />
             <e p="MainMenuScreen.cs" t="Include" />
@@ -47,6 +47,7 @@
           </e>
           <e p="Utility" t="Include">
             <e p="CameraSizeAdjuster.cs" t="Include" />
+            <e p="ILevelLoadingTrigger.cs" t="Include" />
             <e p="LevelLoader.cs" t="Include" />
             <e p="TimeController.cs" t="Include" />
           </e>
