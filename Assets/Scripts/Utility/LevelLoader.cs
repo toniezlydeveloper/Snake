@@ -1,4 +1,4 @@
-﻿using UI;
+﻿using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -17,7 +17,22 @@ namespace Utility
         private void LoadLevelAndResetTimeScale(string levelName)
         {
             TimeController.ResetTimeScale();
-            SceneManager.LoadScene(levelName);
+            StartCoroutine(LoadLevel(levelName));
+        }
+
+        private IEnumerator LoadLevel(string levelName)
+        {
+            AsyncOperation loadingOperation = SceneManager.LoadSceneAsync(levelName);
+            loadingOperation.allowSceneActivation = false;
+            
+            yield return new WaitForSeconds(0.125f);
+            
+            while (loadingOperation.progress < 0.9f)
+            {
+                yield return null;
+            }
+
+            loadingOperation.allowSceneActivation = true;
         }
     }
 }

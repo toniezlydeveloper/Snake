@@ -20,6 +20,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Collectables/CollectablesPlacer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/IGameOverPresenter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Collectables/Collectable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/ButtonAudioService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/PauseScreen.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/MainMenuScreen.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/GameOverScreen.cs" root0="FORCE_HIGHLIGHTING" />
@@ -75,6 +76,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Collectables/TimeModificator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Collectables/Extender.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Collectables/Collectable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/ButtonAudioService.cs" />
       </list>
     </option>
   </component>
@@ -116,6 +118,7 @@
       <workItem from="1590339294755" duration="4166000" />
       <workItem from="1590439141735" duration="3848000" />
       <workItem from="1590523563822" duration="2560000" />
+      <workItem from="1590527407795" duration="682000" />
     </task>
     <servers />
   </component>
